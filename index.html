@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h2 id="jscheck">Are you dumb, allow javascript</h2>
+    <center>
+        <div id="signmain">
+            <br>
+            <center>
+                <div id="signsub">
+                    <h1>Sign Up</h1><br><br>
+                    <label for="fname" class="inputl">First Name: </label><br>
+                    <input type="text" id="fname" placeholder="Matt" class="tinput" required><br>
+                    <p id="fnamep"></p><br>
+                    <label for="lname" class="inputl">Last Name: </label><br>
+                    <input type="text" id="lname" placeholder="Murdock" class="tinput" required><br>
+                    <p id="lnamep"></p><br>
+                    <label for="email" class="inputl">Gmail: </label><br>
+                    <input type="text" id="email" placeholder="mattmurdockoff@gmail.com" class="tinput" required><br>
+                    <p id="emailp"></p><br>
+                    <label for="pass" class="inputl">Password: </label><br>
+                    <input type="password" id="pass" placeholder="**********" class="tinput" required><br>
+                    <p id="passp"></p><br>
+                    <label for="cpass" class="inputl">Confirm Password: </label><br>
+                    <input type="password" id="cpass" placeholder="**********" class="tinput" required><br>
+                    <p id="cpassp"></p><br>
+                    <p id="passcheck"></p><br>
+                    <label class="inputl">Gender: </label><br><br>&emsp;&emsp;
+                    <input type="radio" id="male" class="iradio" name="radio" required>
+                    <label for="male" class="radiol">Male</label>
+                    <input type="radio" id="female" class="iradio" name="radio" required>
+                    <label for="female" class="radiol">Female</label>
+                    <input type="radio" id="other" class="iradio" name="radio" required>
+                    <label for="other" class="radiol">Others</label>
+                    <input type="radio" id="pnts" class="iradio" name="radio" required>
+                    <label for="pnts" class="radiol">Prefer not to say</label><br><br><br>
+                    <center>
+                        <p id="genderp"></p>
+                        <input type="checkbox" id="check" class="icheck" required>
+                        <label for="check" class="checkl">Accept our <a href="https://www.google.com/">Terms and Conditions</a></label>
+                        <p id="checkp"></p>
+                        <br><br><br>
+                        <button id="sub">Signup</button>
+                    </center><br>
+                    <p id="login">Already signed up <a href="https://accounts.google.com/">Login</a></p><br>
+                </div>
+            </center>     
+        </div>
+    </center>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
