@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.error('Error sending data to server:', error);
                     alert('Error signing up. Please try again later.');
                 }
+                //hi test
             } else {
                 passcheck.textContent = '* Passwords don\'t match';
             }
