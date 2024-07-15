@@ -31,7 +31,7 @@ const userSchema = new Schema({
   gender: String,
 });
 
-const User = mongoose.model('User', userSchema);
+const user = mongoose.model('user', userSchema);
 
 // Example API endpoints
 app.get('/', (req, res) => {
@@ -43,7 +43,7 @@ app.post('/users', async (req, res) => {
   try {
     const { firstName, lastName, email, password, gender } = req.body;
 
-    const newUser = new User({
+    const newUser = new user({
       firstName,
       lastName,
       email,
